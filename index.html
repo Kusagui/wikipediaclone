@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Este es un clon de la página principal de la Wikipedia" />
-        <link rel="shortcut icon" href="./images/Wikipedia's_W.svg"  />
         <meta name="robots" content="index,follow" />
+        <link rel="shortcut icon" href="./images/Wikipedia's_W.svg" />
         <link rel="stylesheet" href="./estilosCSS/mobile.css" />
         <link rel="stylesheet" href="./estilosCSS/tablet.css" media="screen and (min-width: 500px)" />
         <link rel="stylesheet" href="./estilosCSS/desktop.css" media="screen and (min-width: 650px)" />
@@ -15,70 +15,90 @@
     <body>
         <header class="header">
             <section class="header-section">
-                <figure>
-                    <img src="./images/Wikipedia_logo.svg" alt="logo wikipedia" />
+                <figure class="header-section__img">
+                    <img src="./images/Wikipedia-logo-v2.svg" alt="logo" class="header-section__img--world" />
                 </figure>
-                <p>The Free Encyclopedia</p>
+
+                <div class="header-section_img">
+                    <figure class="header-section__img--font">
+                        <img src="./images/Wikipedia_logo.svg" alt="logo wikipedia"/>
+                    </figure>
+                    <p class="header-section__img--tagline">The Free Encyclopedia</p>
+                </div>
             </section>
-            <figure class="header-figure">
-                <img src="./images/Wikipedia-logo-v2.svg" alt="logo" class="header-figure__img" />
-            </figure>
         </header>
+
         <main class="main">
             <section class="main-section">
-                <div class="main-section__div1">
-                    <a href="#" class="main-section__div1--item">
-                        <span><strong>English</strong></span>
-                        <p>6 287 000+ articles</p>
-                    </a>
-                    
-                    <a href="#" class="main-section__div1--item">
-                        <span><strong>日本語</strong></span>
-                        <p>1 265 000+ 記事</p>
-                    </a>
+                <form action="" class="main-section__form">
+                    <label for="search" class="main-section__form--item">
+                        <span></span>
+                        <input type="text" name="search">
+                    </label>
 
-                    <a href="#" class="main-section__div1--item">
-                        <span href=""><strong>Русский</strong></span>
-                        <p>1 718 000+ статей</p>
-                    </a>
-                    
-                    <a href="#" class="main-section__div1--item">
-                        <span><strong>Italiano</strong></span>
-                        <p>1 688 000+ voci</p>
-                    </a>
-                    
-                    <a href="#" class="main-section__div1--item">
-                        <span><strong>Português</strong></span>
-                        <p>1 067 000+ artigos</p>
-                    </a>
-                </div>
+                    <label for="" class="main-section__form--item">
+                        <span></span>
+                        <select name="" id="">
 
-                <div class="main-section__div2">
-                    <a href="#" class="main-section__div2--item">
-                        <span><strong>English</strong></span>
-                        <p>6 287 000+ articles</p>
-                    </a>
-                    
-                    <a href="#" class="main-section__div2--item">
-                        <span><strong>日本語</strong></span>
-                        <p>1 265 000+ 記事</p>
-                    </a>
+                        </select>
+                    </label>
 
-                    <a href="#" class="main-section__div2--item">
-                        <span><strong>Русский</strong></span>
-                        <p>1 718 000+ статей</p>
-                    </a>
+                    <figure class="main-section__figure">
+                        <img src="" alt="search logo" class="main-section__figure--icon">
+                    </figure>
+                </form>
+            </section>
+
+            <section class="main-section">
+                <span class="main-section__item">
+                    <a href="#"><strong>English</strong></a>
+                    <p>6 287 000+ articles</p>
+                </span>                    
+
+                <span class="main-section__item">
+                    <a href="#"><strong>Español</strong></a>
+                    <p>1 677 000+ articulos</p>
+                </span>
                     
-                    <a href="#" class="main-section__div2--item">
-                        <span><strong>Italiano</strong></span>
-                        <p>1 688 000+ voci</p>
-                    </a>
+                <span class="main-section__item">
+                    <a href="#"><strong>日本語</strong></a>
+                    <p>1 265 000+ 記事</p>
+                </span>                    
                     
-                    <a href="#" class="main-section__div2--item">
-                        <span><strong>Português</strong></span>
-                        <p>1 067 000+ artigos</p>
-                    </a>
-                </div>
+                <span class="main-section__item">
+                    <a href="#"><strong>Deutsch</strong></a>
+                    <p>1 265 000+ Artikel</p>
+                </span>
+
+                <span class="main-section__item">
+                    <a href="#"><strong>Русский</strong></a>
+                    <p>1 718 000+ статей</p>
+                </span>
+                                        
+                <span class="main-section__item">
+                    <a href="#"><strong>Français</strong></a>
+                    <p>2 322 000+ articles</p>
+                </span>
+
+                <span class="main-section__item">
+                    <a href="#"><strong>Italiano</strong></a>
+                    <p>1 688 000+ voci</p>
+                </span>
+                                        
+                <span class="main-section__item">
+                    <a href="#"><strong>中文</strong></a>
+                    <p>1 193 000+ 條目</p>
+                </span>
+                    
+                <span class="main-section__item">
+                    <a href="#"><strong>Português</strong></a>
+                    <p>1 067 000+ artigos</p>
+                </span>
+                    
+                <span class="main-section__item">
+                    <a href="#"><strong>Polski</strong></a>
+                    <p>1 067 000+ haseł</p>
+                </span>
             </section>
         </main>
         

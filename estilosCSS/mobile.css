@@ -11,6 +11,13 @@ html
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body
+{
+    background-color: white;
+    width: 100vw;
+    height: fit-content;
+}
+
 a
 {
     text-decoration: none;
@@ -21,48 +28,48 @@ a
 .header
 {
     width: 100vw;
-    height: 15vh;
+    height: 14vh;
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 .header-section
 {
-    margin-top: 2vh;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    margin: 0.5rem 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
-.header-section figure
+.header-section__img
 {
-    margin: 1rem 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.header-section img
+.header-section__img--world
 {
-    width: 180px;
+    width: 57px;
 }
 
-.header-section p
+.header-section__img--tagline
 {
-    font-size: 1.6rem;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: serif;
 }
 
-.header-figure
+.header-section__img--font img
 {
-    margin-top: 52vh;
-    position: absolute;
-}
-
-.header-figure__img
-{
-    width: 200px;
+    width: 150px;
+    height: 25px;
 }
 
 /*---------MAIN---------*/
@@ -71,53 +78,5 @@ a
 {
    width: 100vw;
    height: fit-content;
-   display: flex;
-   align-items: center;
-   justify-content: center;
 }
 
-.main-section
-{
-   width: 100%;
-   max-width: 500px;
-   min-width: 500px;
-   height: fit-content;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.main-section__div1,
-.main-section__div2
-{
-    display: inline-block;
-    width: fit-content;
-    height: inherit;
-    position: relative;
-}
-
-.main-section__div1--item,
-.main-section__div2--item
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-    margin: 0.5 0;   
-}
-
-.main-section__div1--item span,
-.main-section__div2--item span
-{
-    color: #36c;
-    font-size: 1.45rem;
-    margin: 0.5rem 0;
-}
-
-.main-section__div1--item p,
-.main-section__div2--item p
-{
-    color: #54595d;
-    font-size: 1.4rem;
-}
