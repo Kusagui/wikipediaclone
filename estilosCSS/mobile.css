@@ -70,6 +70,7 @@ a
 .main
 {
    width: 100vw;
+   height: fit-content;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -78,9 +79,9 @@ a
 .main-section
 {
    width: 100%;
-   max-width: 450px;
-   min-width: 450px;
-   height: 300px;
+   max-width: 500px;
+   min-width: 500px;
+   height: fit-content;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -102,7 +103,8 @@ a
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 1.5rem 0;   
+    padding: 1rem;
+    margin: 0.5 0;   
 }
 
 .main-section__div1--item span,
