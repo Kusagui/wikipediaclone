@@ -226,7 +226,7 @@ a
 .main-section3__form
 {
     width: 90%;
-    max-width: 300px;
+    max-width: 350px;
     height: 40px;
     border: solid 1px rgb(133, 133, 133);
     margin: 1rem 0;
@@ -293,5 +293,95 @@ a
 
 .footer
 {
-    
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-section1
+{
+    padding: 0 0 2.5rem 0;
+}
+
+.footer-section1__item
+{
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
+}
+
+.footer-section1__item img
+{
+    width: 42px;
+}
+
+.footer-section1__item p
+{
+    font-size: 1.4rem;
+    color: rgb(133, 133, 133);
+}
+
+
+.footer-section1__item a
+{
+    font-size: 1.4rem;
+    color: #36c;
+}
+
+.footer-section1__item a:hover
+{
+    text-decoration: underline;
+}
+
+.footer-section2
+{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section2__item
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.footer-section2__item--icon
+{
+    width: 40px;
+    margin: 1rem;
+}
+
+.footer-section2__item--icon img
+{
+    width: 40px;
+}
+
+.footer-section2__item--letters
+{
+    width: 100%;
+    height: fit-content;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-section2__item--letters a
+{
+    width: 100%;
+    font-size: 1.3rem;
+    color: #36c;
+}
+
+.footer-section2__item--letters p
+{
+    width: 100%;
+    font-size: 1.3rem;
+    color: rgb(133, 133, 133);
 }
