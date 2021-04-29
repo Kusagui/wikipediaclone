@@ -78,6 +78,10 @@ a
 {
    width: 100vw;
    height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 .main-section1
@@ -160,7 +164,134 @@ a
     justify-content: center;
 }
 
-.main-section__figure--icon
+.main-section1__form--figure-icon
 {
     width: 22px;
+}
+
+.main-section2
+{
+    width: 100%;
+    max-width: 550px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section2__item
+{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section2__item:hover
+{
+    background-color: #eaedf0;
+}
+
+.main-section2__item a
+{
+    font-size: 1.4rem;
+    color: #36c;
+    margin: 0 0 0.8rem 0;
+}
+
+.main-section2__item a:hover
+{
+    text-decoration: underline;
+}
+
+.main-section2__item p
+{
+    color: #54595d;
+    font-size: 1.4rem;
+}
+
+.main-section3
+{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+
+}
+
+.main-section3__form
+{
+    width: 90%;
+    max-width: 300px;
+    height: 40px;
+    border: solid 1px rgb(133, 133, 133);
+    margin: 1rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-section3__form--item
+{
+    width: 100%;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-section3__form--item figure
+{
+    width: fit-content;
+    height: 35px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.main-section3__form--item img
+{
+    width: 20px;
+}
+
+
+.main-section3__form--item span
+{
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #36c;
+    text-align: center;
+}
+
+.main-section3__form--item select
+{
+    width: 30px;
+    height: 40px;
+    border: none;
+    color: #36c;
+    background-color: transparent;
+    right: 0;
+    outline: none;
+    position: absolute;
+}
+
+.main-separador
+{
+    display: inline-block;
+    width: 90%;
+    margin: 1rem 0;
+}
+
+/*---------FOOTER--------*/
+
+.footer
+{
+    
 }
