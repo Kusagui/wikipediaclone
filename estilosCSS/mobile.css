@@ -296,7 +296,9 @@ a
     width: 100vw;
     height: fit-content;
     text-align: center;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .footer-section1
@@ -336,19 +338,26 @@ a
 
 .footer-section2
 {
-    width: 100%;
+    width: 90%;
+    max-width: 600px;
     height: fit-content;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .footer-section2__item
 {
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1.5rem 0;
+}
+
+.footer-section2__item:hover
+{
+    background-color: #eaedf0;
 }
 
 .footer-section2__item--icon
@@ -359,13 +368,12 @@ a
 
 .footer-section2__item--icon img
 {
-    width: 40px;
+    width: 35px;
 }
 
 .footer-section2__item--letters
 {
-    width: 100%;
-    height: fit-content;
+    width: fit-content;
     text-align: start;
     display: flex;
     align-items: center;
@@ -384,4 +392,109 @@ a
     width: 100%;
     font-size: 1.3rem;
     color: rgb(133, 133, 133);
+}
+
+.footer-section3
+{
+    background-color: #fff;
+    padding: 0 0 2.5rem 0;
+}
+
+.footer-section3__logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section3__logo img
+{
+    width: 25px;
+    margin: 0.5rem;
+    border: solid rgb(196, 195, 195) 1px;
+    border-radius: 2px;
+}
+
+.footer-section3__logo a
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #36c;
+}
+
+.footer-section3__text
+{
+    padding: 1rem;
+}
+
+.footer-section3__text p
+{
+    font-size: 1.4rem;
+    color: #54595d;
+}
+
+.footer-section3__logos
+{
+    padding: 1rem 0;
+}
+
+.footer-section3__logos img
+{
+    width: 115px;
+    margin: 0 0.5rem;
+}
+
+.footer-separador
+{    
+    width: 90%;
+    margin: 1rem auto;
+    display: inline-block;
+}
+
+.footer-section4
+{
+    width: 100%;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.footer-section4__text
+{
+    font-size: 1.25rem;
+    color: #54595d;
+}
+
+.footer-section4__text a
+{
+    color: #36c;
+}
+
+.footer-section4__list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #36c;
+}
+
+.footer-section4__list li
+{
+    list-style: none;
+}
+
+.footer-section4__list a
+{
+    font-size: 1.2rem;
+    color: #36c;
+    margin: 0 1rem;
+}
+
+#linkTerms::before
+{
+    content: "•";
+}
+
+#linkTerms::after
+{
+    content: "•";
 }
