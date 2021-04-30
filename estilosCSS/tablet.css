@@ -15,7 +15,7 @@
 
 .figure-world
 {
-    top: 30vh;
+    top: 33vh;
     position: absolute;
 }
 
@@ -55,7 +55,7 @@
 .main-section2__item
 {
     width: 50%;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     flex-direction: row;
     flex-wrap: wrap;
 }
