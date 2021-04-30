@@ -2,104 +2,117 @@
 
 .header
 {
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    height: 17vh;
 }
 
 .header-section
-{
-    margin-top: 2vh;
-    display: flex;
+{   
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
+    position: relative;
 }
 
-.header-section figure
+.figure-world
 {
-    margin: 1rem 0;
+    top: 30vh;
+    position: absolute;
 }
 
-.header-section img
+.header-section__img--world
+{    
+    width: 200px;
+}
+
+.header-section__img--font img
 {
     width: 180px;
 }
 
-.header-section p
+.header-section__img--tagline
 {
     font-size: 1.6rem;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.header-figure
-{
-    margin-top: 52vh;
-    position: absolute;
-}
-
-.header-figure__img
-{
-    width: 200px;
-}
-
-/*---------MAIN---------*/
- 
-.main
-{
-   width: 100vw;
-   height: fit-content;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.main-section
-{
-   width: 100%;
-   max-width: 500px;
-   min-width: 500px;
-   height: fit-content;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.main-section__div1,
-.main-section__div2
-{
-    display: inline-block;
-    width: fit-content;
-    height: inherit;
-    position: relative;
-}
-
-.main-section__div1--item,
-.main-section__div2--item
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-    margin: 0.5 0;   
-}
-
-.main-section__div1--item span,
-.main-section__div2--item span
-{
-    color: #36c;
-    font-size: 1.45rem;
     margin: 0.5rem 0;
 }
 
-.main-section__div1--item p,
-.main-section__div2--item p
+/*---------MAIN---------*/
+
+.main-section1
 {
-    color: #54595d;
-    font-size: 1.4rem;
+    width: 90%;
+    margin: 1.5rem 0;
+    order: 2;
 }
+
+.main-section2
+{
+    order: 1;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.main-section2__item
+{
+    width: 50%;
+    margin: 0.5rem 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lang
+{
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lang a
+{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.lang p
+{
+    margin: 0 0.1rem;
+}
+
+.two
+{
+    width: 55%;
+}
+
+.three, 
+.seven
+{
+    margin-left: -35%;
+}
+
+.five
+{
+    margin-left: -50%;
+}
+
+.four,
+.eight
+{
+    margin-right: -35%;
+}
+
+.six
+{
+    margin-right: -50%;
+}
+
+.main-section3
+{
+    order: 3;
+}
+
+.main-separador
+{
+    order: 4;
+}
+
