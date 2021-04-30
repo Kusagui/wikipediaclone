@@ -245,7 +245,7 @@ a
 {
     width: fit-content;
     height: 35px;
-    left: 0;
+    left: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -261,7 +261,7 @@ a
 .main-section3__form--item span
 {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: #36c;
     text-align: center;
@@ -394,7 +394,7 @@ a
 .footer-section3
 {
     background-color: #fff;
-    padding: 0 0 2.5rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .footer-section3__logo
@@ -402,6 +402,7 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 1.5rem 0;
 }
 
 .footer-section3__logo img
@@ -501,5 +502,10 @@ a
     .main-section1__form--item2 select
     {
         margin-left: 0;
+    }
+
+    .main-section3__form
+    {
+        width: 80%;
     }
 }

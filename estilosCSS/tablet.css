@@ -108,11 +108,26 @@
 
 .main-section3
 {
+    width: 80%;
     order: 3;
 }
 
 .main-separador
 {
     order: 4;
+}
+
+
+/*---------FOOTER---------*/
+
+.footer-section2
+{
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-section2__item
+{
+    width: 30%
 }
 
