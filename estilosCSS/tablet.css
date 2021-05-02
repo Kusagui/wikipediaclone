@@ -21,7 +21,7 @@
 
 .header-section__img--world
 {    
-    width: 200px;
+    width: 210px;
 }
 
 .header-section__img--font img
@@ -131,3 +131,14 @@
     width: 30%
 }
 
+
+/*---------MEDIA QUERIES 550PX---------*/
+
+@media (min-width: 550px)
+{
+    .header-section__img--world
+    {    
+        width: 215px;
+    }
+
+}

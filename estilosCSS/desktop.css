@@ -5,13 +5,13 @@
 
 .figure-world
 {
-    top: 25vh;
+    top: 23vh;
     position: absolute;
 }
 
 .header-section__img--world
 {    
-    width: 210px;
+    width: 215px;
 }
 
 /*----------MAIN--------*/
@@ -119,6 +119,16 @@
 
 @media (min-width: 950px)
 {
+    .figure-world
+    {
+        top: 23.5vh;
+    }
+
+    .header-section__img--world
+    {    
+        width: 220px;
+    }
+    
     .footer-section1
     {
         margin-left: 10%;
