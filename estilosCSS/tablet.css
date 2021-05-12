@@ -15,13 +15,13 @@
 
 .figure-world
 {
-    top: 28vh;
+    top: calc(100% + 100px);
     position: absolute;
 }
 
 .header-section__img--world
 {    
-    width: 210px;
+    width: 200px;
 }
 
 .header-section__img--font img
@@ -136,9 +136,15 @@
 
 @media (min-width: 550px)
 {
+    .main-section2
+    {
+        width: 90%;
+    }
+
+
     .header-section__img--world
     {    
-        width: 215px;
+        width: 210px;
     }
 
 }
